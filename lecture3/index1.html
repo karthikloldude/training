@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-widt>h, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .popl{
+        width:200px;
+        height:200px;
+        background-color:aqua;
+        object-fit:cover/*completely cover with the image only */
+        object-fit:contain/*background color display by containing the aspect ratio of the image */
+    }
+    .bgimg{
+        background:url("https://media.nature.com/lw767/magazine-assets/d41586-023-02975-x/d41586-023-02975-x_26068572.jpg?as=webp") ;
+        width:100px;
+        height: 200px;
+        background-size:cover;
+        background-repeat:no-repeat;/*if image repeat it will show no repeat */
+    }
+</style>
+<body>
+    <img src="https://www.nature.com/articles/d41586-023-02975-x"alt="jellyfish"width="300px">
+    <img src="https://www.nature.com/articles/d41586-023-02975-x"alt="jellyfish"width="300px"class="popl">
+    <div class="bgimg">balaya</div>
+
+</body>
+</html>

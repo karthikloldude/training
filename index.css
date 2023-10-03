@@ -1,0 +1,29 @@
+h1{
+    color:red
+}
+h2{
+    color: aqua;
+}
+#header1{
+    color: bisque;
+}
+.pop2w{
+    color: black;
+}
+.parent{
+    width:400px;
+    height:400px;
+    background-color:red;
+    color:black;
+    border:1px solid black;
+    padding:20px
+    margin:20px
+}
+.child{
+    width:250px
+    height:250px;
+    background-color:blue;
+    color:purple;
+    padding:99px;
+    margin:20px;
+}
